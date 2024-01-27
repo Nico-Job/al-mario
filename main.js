@@ -1,6 +1,6 @@
 function preload() {
 	world_start = loadSound("world_start.wav");
-	coin = loadSound("coin.wav");
+	coins_sound = loadSound("coin.wav");
 	kick = loadSound("kick.wav");
 	dead = loadSound("mariodie.wav");
 	jump = loadSound("jump.wav");
