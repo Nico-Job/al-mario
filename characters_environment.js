@@ -223,7 +223,7 @@ function getCoins(coin,character){
   if( character.overlap(coin) && character.live && coin.get==false){
     character.coins+=1;
     coin.get=true;
-    coin.play();
+    coins_sound.play();
   };
 }
     
